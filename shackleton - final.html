@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> Ernest Shackleton </title>
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+<script>
+function chk_ans()
+{
+	my_elem = document.getElementById('ans');
+	my_elem.innerHTML = '800 nautical miles';
+	my_elem.style.color = 'red';
+}
+
+</script>
+
+</head>
+<body>
+<div id="wrapper">
+
+<div id="header">
+
+<img src="images/shackletonicon.jpg" alt="Ernest Shackleton at Dulwich College"/>      
+<h2>Ernest Shackleton (1874 - 1922) </h2>
+</div><!--/#header-->
+
+<div id="nav">
+<ul>
+<li><a href="index.html">Introduction</a></li> 
+<li><a href="DC.html">Dulwich College </a> </li> 
+<li><a href="Nimrod.html">Nimrod Expedition</a></li> 
+<li><a href="Endurance.html">Endurance Expedition </a></li> 
+<li><a href="rowlett.html">Rowlett Expedition</a></li> 
+</ul>
+</div><!--/#nav-->
+
+<div id="container">
+<h3> Introduction </h3>
+<p class="snippet">Sir Ernest Shackleton was an Anglo-Irish Antarctic explorer and is famous, principally, for leading the Imperial Trans-Antartic (Endurance) Expedition of 1914-16.</p>
+
+<p class="snippet">He was one of the principal figures of the period known as the Heroic Age of Antartic Exploration. Educated at Dulwich College and having ignored his father's wishes that he become a doctor he joined the merchant navy. Of many quotes one of his most famous is, <span class="myquote"> "Difficulties are just things to overcome, after all." </span></p>
+
+<p class="snippet">During his life he made three trips to the Antarctic. As well as climbing Mount Erebus he made many important scientific discoveries. On his fourth expedition to circumnavigate the Antartic he died of a heart attack. He was buried on the Island of South Georgia. </p>
+</div><!--/#container-->
+<div class="clearme"></div>
+<div id="quiz">
+<h3>Quiz</h3>
+<p>How far (according to Shackleton's wikipedia page) is it from Elephant Island to South Georgia in Nautical Miles?<span class="myquote" id="ans"></span></p>
+<p> <button onClick='chk_ans()'>Check answer</button></p>
+
+</div>
+<div id="footer">
+<p> Thank you for reading my web page</p>
+</div>
+
+</div><!--/#wrapper-->
+
+
+
+</body>
+</html>
